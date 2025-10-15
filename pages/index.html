@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introdução ao CSS</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <!-- Estilização Interna -->
+    <style>
+      h1 {
+        color: blue;
+      }
+      #outro-titulo {
+        color: crimson;
+      }
+      .texto {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <!-- Estilização Inline -->
+  <body style="background-color: rgb(255, 187, 0)">
+    <h1 style="color: rgba(14, 221, 83, 0.604)">Meu Titulo</h1>
+    <h1 id="outro-titulo">Outro Titulo</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+      sapiente, commodi necessitatibus quod laboriosam ad placeat reiciendis!
+      Nemo ad atque aperiam, aliquam perferendis, architecto est praesentium
+      velit explicabo, quas quaerat.
+    </p>
+    <p class="">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+      sapiente, commodi necessitatibus quod laboriosam ad placeat reiciendis!
+      Nemo ad atque aperiam, aliquam perferendis, architecto est praesentium
+      velit explicabo, quas quaerat.
+    </p>
+  </body>
 </html>
